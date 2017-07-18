@@ -12,7 +12,7 @@ and then run the python script. It would return a series of function that can be
 
 ## How to Build
 ```
-gcc keygenme.c o keygenme
+gcc keygenme.c -o keygenme
 ```
   
 Example Run:
@@ -32,6 +32,8 @@ Grats! You made it!
 
 ## How to Solve
 
+For testing run solver.py (you will need z3-solver installed).
+Competitors will have to either decompile the C code and create their own version of solver.py, or they will have to brute-force it to try and find the flag.
 
 # Flag
-flag: "MCA-A0826B45FE84A765"
+flag: "MCA{M9OBIf2JS3CCzyZ}"

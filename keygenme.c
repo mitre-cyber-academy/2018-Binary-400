@@ -5,104 +5,103 @@ int fail() {
     exit(-1);
     return 0;
 }
-
 void check_0(char* key) {
-    if (key[19]*key[7]-key[3]!=2605)  {
+    if (key[6]*key[7]-key[13]-key[3]!=5040)  {
         fail();
     }
 }
 void check_1(char* key) {
-    if (key[12]+key[19]-key[13]+key[15]*key[17]!=2914)  {
+    if (key[9]-key[1]+key[3]+key[0]!=235)  {
         fail();
     }
 }
 void check_2(char* key) {
-    if (key[18]*key[8]-key[14]+key[11]+key[9]!=2979)  {
+    if (key[18]+key[17]-key[7]+key[6]*key[12]!=6702)  {
         fail();
     }
 }
 void check_3(char* key) {
-    if (key[6]-key[3]*key[4]!=-2869)  {
+    if (key[1]-key[7]-key[15]!=-66)  {
         fail();
     }
 }
 void check_4(char* key) {
-    if (key[17]*key[16]-key[9]+key[8]!=3563)  {
+    if (key[16]+key[15]+key[17]!=310)  {
         fail();
     }
 }
 void check_5(char* key) {
-    if (key[3]*key[2]*key[4]!=190125)  {
+    if (key[16]*key[11]-key[9]!=8926)  {
         fail();
     }
 }
 void check_6(char* key) {
-    if (key[5]*key[9]+key[18]!=3222)  {
+    if (key[13]+key[7]+key[12]*key[5]*key[9]!=482679)  {
         fail();
     }
 }
 void check_7(char* key) {
-    if (key[8]+key[2]+key[8]-key[16]+key[7]!=158)  {
+    if (key[18]*key[11]-key[17]-key[5]-key[10]!=6432)  {
         fail();
     }
 }
 void check_8(char* key) {
-    if (key[8]+key[10]-key[19]!=53)  {
+    if (key[17]*key[5]*key[8]+key[5]!=503538)  {
         fail();
     }
 }
 void check_9(char* key) {
-    if (key[19]+key[16]*key[19]!=3498)  {
+    if (key[17]*key[16]-key[8]-key[16]!=14567)  {
         fail();
     }
 }
 void check_10(char* key) {
-    if (key[0]+key[11]*key[6]-key[11]!=2992)  {
+    if (key[7]+key[3]-key[9]!=87)  {
         fail();
     }
 }
 void check_11(char* key) {
-    if (key[0]-key[12]-key[13]-key[13]!=-131)  {
+    if (key[5]*key[18]-key[0]-key[15]!=4986)  {
         fail();
     }
 }
 void check_12(char* key) {
-    if (key[3]*key[13]+key[5]!=3153)  {
+    if (key[0]*key[6]*key[6]*key[12]+key[14]!=39886298)  {
         fail();
     }
 }
 void check_13(char* key) {
-    if (key[1]*key[10]-key[8]*key[6]+key[5]!=508)  {
+    if (key[8]+key[14]+key[19]*key[18]-key[3]!=11267)  {
         fail();
     }
 }
 void check_14(char* key) {
-    if (key[16]+key[5]*key[7]+key[16]*key[5]!=5585)  {
+    if (key[4]*key[11]+key[18]!=5788)  {
         fail();
     }
 }
 void check_15(char* key) {
-    if (key[19]-key[10]*key[7]+key[17]!=-2492)  {
+    if (key[13]-key[8]+key[6]-key[15]!=-10)  {
         fail();
     }
 }
 void check_16(char* key) {
-    if (key[16]-key[7]*key[15]-key[10]!=-2587)  {
+    if (key[9]*key[19]+key[9]*key[3]+key[18]!=25386)  {
         fail();
     }
 }
 void check_17(char* key) {
-    if (key[17]*key[5]*key[4]*key[18]-key[0]!=9266323)  {
+    if (key[1]-key[11]*key[14]!=-4891)  {
         fail();
     }
 }
 void check_18(char* key) {
-    if (key[2]-key[4]*key[1]!=-4290)  {
+    if (key[13]+key[2]-key[7]!=50)  {
         fail();
     }
 }
 void check_19(char* key) {
-    if (key[2]*key[0]*key[6]-key[6]*key[6]!=277144)  {
+    if (key[18]*key[0]-key[7]-key[1]!=6797)  {
         fail();
     }
 }

@@ -6,7 +6,7 @@ Author: Eugene Kolodenker <eugene@eugenekolo.com>
 from random import randint
 import re
 
-key = "MCA-A0826B45FE84A765"
+key = "MCA{M9OBIf2JS3CCzyZ}"
 
 CHECK_FUNC = """void check_{idx}(char* key) {{
     if ({equation})  {{
