@@ -6,7 +6,7 @@ Author: Eugene Kolodenker <eugene@eugenekolo.com>
 from random import randint
 import re
 
-key = "MCA{M9OBIf2JS3CCzyZ}"
+key = "MCA{A0826B45FE84A765}"
 
 CHECK_FUNC = """void check_{idx}(char* key) {{
     if ({equation})  {{
@@ -36,6 +36,7 @@ def mathmatize(vars):
 
 	# Calculate the right hand side
 	eval_equation = re.sub(r'(key\[\d*\])', r'ord(\1)', equation)
+	print(eval_equation)
 	ans = eval(eval_equation)
 	equation += "!=" + str(ans)
 	return equation
@@ -45,8 +46,8 @@ def template(idx, equation):
 	return code
 
 def main():
-	for i in range(20):
-		vars = randvars(20, 3, 5)
+	for i in range(21):
+		vars = randvars(21, 3, 5)
 		equation = mathmatize(vars)
 		code = template(str(i), equation)
 		print(code)
